@@ -1,0 +1,338 @@
+@import url('https://fonts.cdnfonts.com/css/oxygen');
+@import url(https://allfont.net/allfont.css?fonts=henny-penny);
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #dbdbdb;
+    font-family: "oxygen",sans-serif;
+}
+#social{
+    background-color: black;
+    color: white;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: right;
+    padding: 15px;
+
+}
+font{
+    float: left;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+#social>i{ 
+    margin-right: 15px;
+}
+#social>i:hover{ 
+    opacity: 0.8;
+}
+#container{
+    width:85%;
+    margin:auto;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 250px;
+    box-shadow:0 2px 8px 2px  rgba(20, 23,28 ,.15 );
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    font-family:"Teko",sans-serif;
+    color:white;
+    font-size:35px;
+    background-color: black;
+    margin-bottom: 5px;  
+    
+
+}
+
+#headerResim{
+    width:100%;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.8;  
+}
+#centered{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    letter-spacing: 1.5px;
+}
+section{
+    width:100%;
+    height:auto;
+    background-color:#f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:0 2px 8px 2px  rgba(20, 23,28 ,.15 );
+    margin-top: 15px;
+    overflow:auto;
+}
+nav{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+nav ul{
+    width:auto;
+    height:100%;
+    margin:0;
+    padding: 0;
+}
+nav li{
+    list-style-type: none;
+}
+nav li a{
+    height:50px;
+    line-height: 50px;
+    text-decoration: none;
+    color:black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display:block;
+}
+nav li a:hover{
+   color: white;
+   background-color: #adadad;
+
+}
+i{
+    margin-right:10px;
+}
+main{
+    float:left;
+    height: auto;
+    width: 80%;
+    padding:10px;
+    
+}
+.icerik{
+    width:48%;
+    height:auto;
+    display:inline-block;
+    float: left;
+    margin-right:15px;
+    border-radius: 10px;
+    box-shadow:0 2px 8px 2px  rgba(20, 23,28 ,.15 );
+    margin-bottom: 15px;
+    
+} 
+.rsm{
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition:all 0.8sn;
+} 
+h5{
+    margin:10px;
+    color:dimgray;
+}
+.icerikText:{
+    width:40%;
+    margin:10px;
+    color:dimgray;
+}
+
+
+.btnDevam:link{
+    display:block ;
+    width:150px;
+    height:45px;
+    padding:10px 20px;
+    background-color:#0071ce;
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    border-radius:10px;
+}
+
+.btnDevam:hover{
+    opacity: 0.8;
+}
+
+.rsm:hover{
+    opacity: 0.8;
+}
+footer{
+    width:100%;
+    height:75px;
+    background-color: black;
+    color:white;
+    line-height: 75px;
+    text-align: center;
+    box-shadow:0 2px 8px 2px  rgba(20, 23,28 ,.15 );
+
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color:white;
+    height:50px;
+    line-height: 50px;
+    margin:0 10px;
+    border-radius: 10px;
+    box-shadow:0 2px 8px 2px  rgba(20, 23,28 ,.15 );
+}
+#hakkimizdaRSM{
+    width:350px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin:25px;
+    margin-bottom: 10px;
+    transition: opacity 0.8s;
+}
+#hakkimizdaRSM:hover{
+    opacity: 0.6s;
+}
+.hakyazi{
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 40px;
+    color:#494949;
+    }
+
+
+.referans{
+    width: 30%;
+    height:350px;
+    margin:10px;
+    float:left;
+    background-color:white
+    border-radius:5px;
+    box-shadow:0 2px 8px 2px  rgba(20, 23,28 ,.15 );
+}
+
+.refResim{
+    width: 100%;
+    height: 180px;
+    border-top-left-radius:5px ;
+    border-top-left-radius:5px ;
+    opacity: 0.6;
+    transition: opacity 0.8;
+}   
+
+.refBaslik{
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 0px;
+    color:black;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    background-color: #d8d8d8e2;
+    width: 100%;
+    margin-top: -5px;
+    box-shadow:0 2px 8px 2px  rgba(20, 23,28 ,.15 );
+}
+.refDetay{
+    text-align: center;
+}
+.refResim:hover{
+    opacity: 1;
+
+}
+.galResim{
+    width:22%;
+    height: 200px;
+    border-radius: 5px;
+    opacity: 0.8;
+    margin:10px;
+    box-shadow:0 2px 8px 2px  rgba(20, 23,28 ,.15 );
+    transition:all 0.6s;
+    object-fit: cover;
+}
+.galResim:hover{
+    opacity: 1;
+    border:5px solid white;
+    cursor: pointer;
+
+}
+.link:link{
+    text-decoration: none;
+}
+iframe{
+    width: 98%;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.section1{
+    width: 98%;
+    height: auto;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.form{
+    width:49%;
+    float: left;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+.col25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+
+}
+.col75{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type:text],textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:4px
+
+}
+.row:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+input[type=submit]{
+    background-color:#0e642f;
+    color:white;
+    padding: 12px 20px;
+    border-radius:4px;
+   float: right;
+}
+h2{
+    text-align: center;
+}
+.span1{
+    display: block;
+    font-family: calibri;
+    margin:10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 16px;
+}
